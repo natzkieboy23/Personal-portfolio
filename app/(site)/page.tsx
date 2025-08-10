@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -95,14 +96,14 @@ export default function HomePage() {
               </div>
               <div className="relative">
                 <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-muted/50 border">
-                  <div className="h-full w-full flex items-center justify-center text-muted-foreground">
-                    <div className="text-center space-y-2">
-                      <div className="w-20 h-20 mx-auto bg-muted rounded-full flex items-center justify-center">
-                        <span className="text-2xl font-bold">{personalInfo.name.split(' ').map(n => n[0]).join('')}</span>
-                      </div>
-                      <p className="text-sm">Profile Image</p>
-                    </div>
-                  </div>
+                  <Image
+                    src="/images/profile-hero.jpg"
+                    alt={`${personalInfo.name} - Professional photo`}
+                    width={500}
+                    height={625}
+                    className="h-full w-full object-cover"
+                    priority
+                  />
                 </div>
               </div>
             </div>

@@ -14,76 +14,40 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    id: "techcorp-senior",
-    company: "TechCorp Solutions",
-    position: "Senior Full Stack Developer",
-    startDate: "2022-03",
+    id: "comptrolla-cto",
+    company: "Comptrolla",
+    position: "Chief Technology Officer",
+    startDate: "2023-01",
     endDate: null,
-    location: "San Francisco, CA",
+    location: "2F Unit 203-204, Tomasca Building, 273 Boni Serrano Ave., San Roque, Quezon City 1109",
     type: "Full-time",
-    description: "Leading development of enterprise-grade web applications serving 100k+ users. Architecting scalable microservices and mentoring junior developers.",
+    description: "As Chief Technology Officer, led the end-to-end development of Outsourcee.app, a one-stop service solution platform. Oversaw the creation of three distinct application ends: the Customer/Client app, the Expert/Service Provider app, and the Partner Onboarding portal.",
     achievements: [
-      "Led migration from monolith to microservices, reducing deployment time by 70%",
-      "Implemented real-time collaboration features increasing user engagement by 45%",
-      "Mentored 5 junior developers, with 3 receiving promotions",
-      "Reduced application bundle size by 40% through code splitting and optimization"
+      "Spearheaded the entire product lifecycle of the Outsourcee platform, from concept and architecture to deployment and scaling.",
+      "Successfully launched and managed separate applications for customers (Next.js, React Native) and service providers (React Native), ensuring a seamless user experience for both sides of the marketplace.",
+      "Engineered a robust backend system using Express, PostgreSQL, Firebase, and Supabase to handle user management, service bookings, and payments.",
+      "Established key strategic partnerships by developing an onboarding portal, integrating with government and industry organizations like DMW, DTI, and TESDA."
     ],
-    technologies: ["React", "Node.js", "TypeScript", "PostgreSQL", "AWS", "Docker", "GraphQL"],
-    year: 2022
+    technologies: ["Next.js", "Express", "React Native Expo", "Firebase", "Supabase", "PostgreSQL", "Vercel", "Render.com", ".NET (C#)"],
+    year: 2023
   },
   {
-    id: "innovate-mid",
-    company: "Innovate Labs",
-    position: "Full Stack Developer",
-    startDate: "2020-06",
-    endDate: "2022-02",
-    location: "Remote",
-    type: "Full-time",
-    description: "Developed and maintained multiple client projects using modern web technologies. Collaborated with design and product teams to deliver pixel-perfect implementations.",
-    achievements: [
-      "Built 8 client projects from concept to production",
-      "Implemented automated testing reducing bug reports by 60%",
-      "Optimized database queries improving response times by 50%",
-      "Established code review process improving code quality metrics"
-    ],
-    technologies: ["Vue.js", "Python", "Django", "MongoDB", "Redis", "GitHub Actions"],
-    year: 2020
-  },
-  {
-    id: "startup-junior",
-    company: "StartupXYZ",
-    position: "Junior Developer",
+    id: "full-stack-dev-2019-2023",
+    company: "Saint Paul Consulting Group",
+    position: "Junior Full Stack Developer",
     startDate: "2019-01",
-    endDate: "2020-05",
-    location: "Austin, TX",
+    endDate: "2023-01",
+    location: "3JC6+MR3, 2nd Floor Aldevinco Shopping Center Roxas Ave, Poblacion District, Davao City, Davao del Sur",
     type: "Full-time",
-    description: "Contributed to rapid product development in a fast-paced startup environment. Worked across the full stack building features for a SaaS platform.",
+    description: "As the sole developer, single-handedly designed, developed, and deployed comprehensive business solutions tailored to the specific operational needs of major distribution corporations. Key clients included Davao North Allied Distributors Corp. (a San Miguel Corporation distributor for the Davao Region) and Diamond Millenium Corporation (Limketkai, Cagayan De Oro), delivering systems to manage their core processes.",
     achievements: [
-      "Developed user authentication and authorization system",
-      "Built responsive dashboard with real-time data visualization",
-      "Contributed to API design and documentation",
-      "Participated in daily standups and sprint planning"
+      "Successfully delivered end-to-end software solutions for major distribution companies, handling everything from requirements gathering to deployment and support.",
+      "Engineered a custom ERP-like system using Delphi Pascal and C# .NET for Davao North Allied Distributors Corp., streamlining their inventory and sales processes.",
+      "Developed and integrated a financial management module with the QuickBooks API for Diamond Millenium Corporation, automating key accounting workflows.",
+      "Designed and managed complex MySQL databases to support the core operations of all developed business applications, ensuring data integrity and performance."
     ],
-    technologies: ["JavaScript", "React", "Express.js", "MySQL", "Bootstrap"],
+    technologies: ["Delphi Pascal", "C# .NET Winforms", "MySQL", "Quickbooks API Integration"],
     year: 2019
-  },
-  {
-    id: "freelance-web",
-    company: "Freelance",
-    position: "Web Developer",
-    startDate: "2018-03",
-    endDate: "2018-12",
-    location: "Remote",
-    type: "Freelance",
-    description: "Provided web development services to small businesses and entrepreneurs. Specialized in creating modern, responsive websites and e-commerce solutions.",
-    achievements: [
-      "Completed 12 client projects with 100% satisfaction rate",
-      "Built custom e-commerce solutions increasing client sales by 30%",
-      "Established long-term relationships with 5 recurring clients",
-      "Learned project management and client communication skills"
-    ],
-    technologies: ["HTML", "CSS", "JavaScript", "WordPress", "PHP", "MySQL"],
-    year: 2018
   }
 ];
 

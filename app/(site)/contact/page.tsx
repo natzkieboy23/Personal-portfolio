@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send, Clock, MessageSquare } from "lucide-react";
+import { Mail, Github, Linkedin, Twitter, Send, Clock, MessageSquare } from "lucide-react";
 import { personalInfo } from "@/data/personalInfo";
 
 // Note: This would need to be moved to a separate file for the metadata

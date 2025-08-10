@@ -4,8 +4,9 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Download, Mail, MapPin, Phone } from "lucide-react";
+import { ArrowRight, Download, Mail, Github } from "lucide-react";
 import { personalInfo } from "@/data/personalInfo";
+import { PhotoGallery } from "@/components/photo-gallery";
 
 import { getAllSkills } from "@/data/skills";
 
@@ -175,6 +176,58 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Photo Gallery Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
+            <PhotoGallery
+              images={[
+                {
+                  src: "/images/others/_DSC5509.JPG",
+                  alt: "Benjie Louise Nonato - Professional Photo 1",
+                  caption: "Professional portrait"
+                },
+                {
+                  src: "/images/others/_DSC5511.JPG",
+                  alt: "Benjie Louise Nonato - Professional Photo 3",
+                  caption: "Professional portrait"
+                },
+                {
+                  src: "/images/others/_DSC5513.JPG",
+                  alt: "Benjie Louise Nonato - Professional Photo 5",
+                  caption: "Professional portrait"
+                },
+                {
+                  src: "/images/others/_DSC5515.JPG",
+                  alt: "Benjie Louise Nonato - Professional Photo 7",
+                  caption: "Professional portrait"
+                },
+                {
+                  src: "/images/others/_DSC5517.JPG",
+                  alt: "Benjie Louise Nonato - Professional Photo 9",
+                  caption: "Professional portrait"
+                },
+                {
+                  src: "/images/others/_DSC5518.JPG",
+                  alt: "Benjie Louise Nonato - Professional Photo 10",
+                  caption: "Professional portrait"
+                }
+              ]}
+              title="Professional Photos"
+              description="A glimpse into my professional photography collection"
+            />
+            <div className="mt-8 text-center">
+              <Button asChild>
+                <Link href="/photos">
+                  View All Photos
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Info Section */}
       <section className="bg-muted/50 py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -187,7 +240,7 @@ export default function AboutPage() {
                 Ready to discuss your next project?
               </p>
             </div>
-            <div className="mt-12 grid gap-6 md:grid-cols-3">
+            <div className="mt-12 grid gap-6 md:grid-cols-2">
               <Card className="text-center transition-all hover:shadow-md">
                 <CardContent className="p-6">
                   <Mail className="mx-auto h-8 w-8 text-primary" />
@@ -198,6 +251,22 @@ export default function AboutPage() {
                       className="hover:text-foreground transition-colors"
                     >
                       {personalInfo.email}
+                    </Link>
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="text-center transition-all hover:shadow-md">
+                <CardContent className="p-6">
+                  <Github className="mx-auto h-8 w-8 text-primary" />
+                  <h3 className="mt-4 font-semibold">GitHub</h3>
+                  <p className="mt-2 text-sm text-muted-foreground">
+                    <Link 
+                      href={personalInfo.social.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-foreground transition-colors"
+                    >
+                      natzkieboy23
                     </Link>
                   </p>
                 </CardContent>

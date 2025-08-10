@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function ExperiencePage() {
   const years = getAllYears();
-  const totalYears = new Date().getFullYear() - 2018; // Started in 2018
+  const totalYears = new Date().getFullYear() - 2019; // Started in 2018
 
   return (
     <div className="flex flex-col">

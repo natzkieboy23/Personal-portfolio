@@ -1,9 +1,9 @@
 export const personalInfo = {
   name: "Benjie Louise Nonato",
-  title: "Full Stack Developer",
-  tagline: "Crafting digital experiences with 6+ years of expertise",
+  title: "Chief Technology Officer",
+  tagline: "Leading technology strategy and building innovative solutions.",
   email: "benjie_nonato@umindanao.edu.ph",
-  about: `Resourceful software developer with 6 years of experience building scalable web applications and leading technical initiatives. Quick to adapt to new technologies and passionate about creating efficient, user-centric solutions. Proven track record of delivering high-quality software in fast-paced environments.`,
+  about: `As a seasoned technology leader and Chief Technology Officer, I specialize in building and scaling innovative software solutions. My focus is on driving technical vision, leading high-performing engineering teams, and delivering products that solve real-world problems. I am passionate about leveraging modern technologies to create impactful and user-centric applications like Outsourcee.app.`,
   
   social: {
     linkedin: "https://linkedin.com/in/alexjohnson",
@@ -15,10 +15,10 @@ export const personalInfo = {
   resume: "/files/Alex_Johnson_Resume.pdf",
   
   highlights: [
-    "6+ years of full-stack development experience",
-    "Led development teams of 3-5 engineers",
-    "Reduced application load times by 60% through optimization",
-    "Architected microservices handling 1M+ daily requests",
-    "Mentored 5+ junior Developers"
+    "Leading the end-to-end development of the Outsourcee.app platform.",
+    "Architecting and scaling complex systems using Next.js, React Native, and a modern backend stack.",
+    "Growing and mentoring engineering teams to foster innovation and excellence.",
+    "Spearheading technology strategy to align with business goals and drive growth.",
+    "Forging strategic partnerships with government and industry leaders."
   ]
 };
