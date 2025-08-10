@@ -25,11 +25,11 @@ export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full modern-navigation">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-xl font-bold">{personalInfo.name}</span>
+          <span className="text-xl font-bold modern-gradient-text">{personalInfo.name}</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -183,7 +183,7 @@ export function Navigation() {
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
         <div className="md:hidden">
-          <div className="space-y-1 border-t bg-background px-4 pb-3 pt-2">
+          <div className="space-y-1 border-t border-white/10 bg-black/90 backdrop-blur-xl px-4 pb-3 pt-2">
             {navigation.map((item) => (
               <Link
                 key={item.name}

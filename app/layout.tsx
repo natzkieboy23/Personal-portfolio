@@ -73,10 +73,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning className="dark">
-      <body className={`${inter.variable} font-sans antialiased`}>
-        <div className="relative flex min-h-screen flex-col bg-background">
+      <body className={`${inter.variable} font-sans antialiased modern-bg`}>
+        {/* Modern Background Elements */}
+        <div className="fixed inset-0 -z-10">
+          {/* Geometric pattern overlay */}
+          <div className="absolute inset-0 geometric-pattern opacity-40" />
+          
+          {/* Green Aurora glow effects */}
+          <div className="pulse-glow absolute top-20 left-20 w-96 h-96 bg-emerald-500/20" />
+          <div className="pulse-glow absolute bottom-32 right-20 w-80 h-80 bg-green-500/15" style={{ animationDelay: '3s' }} />
+          <div className="pulse-glow absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-teal-500/10" style={{ animationDelay: '6s' }} />
+          
+          {/* Subtle green accent lines */}
+          <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-emerald-500/30 to-transparent" />
+          <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-green-500/30 to-transparent" />
+        </div>
+
+        <div className="relative flex min-h-screen flex-col">
           <Navigation />
-          <main className="flex-1 overflow-hidden">{children}</main>
+          <main className="flex-1 relative z-10">{children}</main>
           <Footer />
         </div>
       </body>
