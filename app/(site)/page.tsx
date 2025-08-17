@@ -97,7 +97,7 @@ export default function HomePage() {
               <div className="relative">
                 <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-muted/50 border">
                   <Image
-                    src="/images/profile-hero.jpg"
+                    src="/images/others/Benjie FInal 2.JPG"
                     alt={`${personalInfo.name} - Professional photo`}
                     width={500}
                     height={625}

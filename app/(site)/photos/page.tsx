@@ -9,6 +9,16 @@ export const metadata: Metadata = {
 
 const professionalPhotos = [
   {
+    src: "/images/others/Benjie FInal 2.JPG",
+    alt: "Benjie Louise Nonato - Main Professional Photo",
+    caption: "Latest professional headshot"
+  },
+  {
+    src: "/images/others/Benjie No BG 1.png",
+    alt: "Benjie Louise Nonato - Professional Photo No Background",
+    caption: "Professional portrait with transparent background"
+  },
+  {
     src: "/images/others/BenjieNonato.jpg",
     alt: "Benjie Louise Nonato - Main Profile Photo",
     caption: "Professional headshot"

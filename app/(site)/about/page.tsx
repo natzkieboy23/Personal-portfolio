@@ -41,16 +41,17 @@ export default function AboutPage() {
                 <div className="prose prose-lg max-w-none text-muted-foreground">
                   <p>{personalInfo.about}</p>
                   <p>
-                    Throughout my career, I've had the privilege of working with diverse teams 
-                    and technologies, constantly learning and adapting to new challenges. 
-                    I believe in writing clean, maintainable code and creating solutions 
-                    that not only meet requirements but exceed expectations.
+                    Throughout my 6+ year journey as a full stack developer, I've worked with diverse teams 
+                    and cutting-edge technologies, from React and Next.js on the frontend to Node.js, 
+                    Python, and various databases on the backend. I excel at bridging the gap between 
+                    design and functionality, ensuring seamless user experiences backed by robust architecture.
                   </p>
                   <p>
-                    When I'm not coding, you can find me exploring new technologies, 
-                    contributing to open source projects, or mentoring aspiring developers. 
-                    I'm passionate about the intersection of technology and user experience, 
-                    always striving to create digital products that make a real difference.
+                    My experience includes building RESTful APIs, implementing authentication systems, 
+                    optimizing database performance, and deploying applications to cloud platforms. 
+                    I'm passionate about staying current with industry trends, contributing to open source projects, 
+                    and mentoring fellow developers. I believe great software is built on solid fundamentals, 
+                    clean code practices, and continuous learning.
                   </p>
                 </div>
 
@@ -73,11 +74,11 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-muted">
                   <Image
-                    src="/images/profile-about.jpg"
+                    src="/images/others/Benjie No BG 1.png"
                     alt={`${personalInfo.name} - Professional photo`}
                     width={500}
                     height={625}
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-contain"
                     priority
                   />
                 </div>

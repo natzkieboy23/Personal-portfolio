@@ -1,9 +1,9 @@
 export const personalInfo = {
   name: "Benjie Louise Nonato",
-  title: "Chief Technology Officer",
-  tagline: "Leading technology strategy and building innovative solutions.",
+  title: "Full Stack Developer",
+  tagline: "Building scalable web applications with 6+ years of expertise.",
   email: "benjie_nonato@umindanao.edu.ph",
-  about: `As a seasoned technology leader and Chief Technology Officer, I specialize in building and scaling innovative software solutions. My focus is on driving technical vision, leading high-performing engineering teams, and delivering products that solve real-world problems. I am passionate about leveraging modern technologies to create impactful and user-centric applications like Outsourcee.app.`,
+  about: `With over 6 years of comprehensive full stack development experience, I am a seasoned software engineer who specializes in building robust, scalable web applications from concept to deployment. My expertise spans both frontend and backend technologies, allowing me to create seamless end-to-end solutions that solve complex business problems. I am passionate about writing clean, maintainable code and leveraging modern technologies to deliver exceptional user experiences.`,
   
   social: {
     linkedin: "https://linkedin.com/in/alexjohnson",
@@ -15,10 +15,11 @@ export const personalInfo = {
   resume: "/files/Alex_Johnson_Resume.pdf",
   
   highlights: [
-    "Leading the end-to-end development of the Outsourcee.app platform.",
-    "Architecting and scaling complex systems using Next.js, React Native, and a modern backend stack.",
-    "Growing and mentoring engineering teams to foster innovation and excellence.",
-    "Spearheading technology strategy to align with business goals and drive growth.",
-    "Forging strategic partnerships with government and industry leaders."
+    "6+ years of full stack development expertise across frontend and backend technologies.",
+    "Architected and deployed scalable web applications using React, Next.js, Node.js, and modern databases.",
+    "Built responsive, user-centric interfaces with React, TypeScript, and modern CSS frameworks.",
+    "Developed robust APIs and backend services using Node.js, Express, and various database technologies.",
+    "Implemented DevOps practices including CI/CD pipelines, cloud deployment, and containerization.",
+    "Mentored junior developers and contributed to code reviews and best practices adoption."
   ]
 };
